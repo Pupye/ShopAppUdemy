@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      builder: (ctx)=> Products(),
+      builder: (ctx)=> Products(), //here we are providing a object that can be listened by its child widgets.
         child: MaterialApp(
       title: 'MyShop',
       theme: ThemeData(
